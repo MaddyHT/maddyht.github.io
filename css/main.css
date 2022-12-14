@@ -44,8 +44,8 @@ a {
 
 .navbar {
     background: hsl(202, 100%, 49%);
-	navbar-padding-y:                  $spacer * .5;
-	navbar-padding-y:                  $spacer * .5;
+	font-weight: 700;
+	
 }
 
 .nav-link,
@@ -103,9 +103,10 @@ a {
 
 .description p {
     color: #666;
-    font-size: 20px;
-    width: 50%;
+    font-size: 26px;
+    width: 60%;
     line-height: 1.5;
+	font-weight: 700;
 }
 
 .description button {
@@ -128,7 +129,7 @@ a {
 .about img {
     height: 100%;
     width: 100%;
-    border-radius: 50%
+    border-radius: 20%
 }
 
 .about span {
@@ -150,6 +151,13 @@ a {
 .about .desc p {
     line-height: 2;
     color: #888;
+}
+.about .aboutdesc {
+    /*line-height: 2;*/
+	font-size: 16px;
+    line-height: 1.5;
+	font-weight: 700;
+    color: #191970;
 }
 
 
