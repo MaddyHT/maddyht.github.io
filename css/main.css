@@ -103,7 +103,7 @@ a {
 
 .description p {
     color: #666;
-    font-size: 26px;
+    font-size: 22px;
     width: 60%;
     line-height: 1.5;
 	font-weight: 700;
@@ -229,7 +229,7 @@ a {
     position: relative;
     overflow: hidden;
 	/*height: 100%;*/
-	width: 300px;
+	width: 400px;
 	
 }
 
@@ -238,7 +238,7 @@ a {
     color: #fff;
     text-align: center;
     border-top-right-radius: 93%;
-    transition: .3s ease-in-out;
+    transition: 1s ease-in-out;
     position: absolute;
     width: 88%;
     bottom: 24px;
