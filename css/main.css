@@ -17,7 +17,7 @@ a {
 }
 
 ::-webkit-scrollbar {
-    width: 20px;
+    width: 40px;
 }
 
 
@@ -40,8 +40,12 @@ a {
     border-radius: 10px;
 }
 
+/* .text-justify{text-align:justify !important;} */
+
 .navbar {
     background: hsl(202, 100%, 49%);
+	navbar-padding-y:                  $spacer * .5;
+	navbar-padding-y:                  $spacer * .5;
 }
 
 .nav-link,
