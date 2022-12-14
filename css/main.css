@@ -228,6 +228,9 @@ a {
 .team .item {
     position: relative;
     overflow: hidden;
+	/*height: 100%;*/
+	width: 300px;
+	
 }
 
 .team .des {
@@ -243,12 +246,17 @@ a {
 
 .team .item:hover .des {
     height: 100%;
-    background: #f973007d;
+    background: hsl(202, 100%, 49%);
     position: absolute;
     width: 89%;
     padding: 5em;
     top: 0;
     border-top-right-radius: 0;
+	opacity: 90%;
+	color: #fff;
+	
+	
+	
 }
 
 .contact-form {
